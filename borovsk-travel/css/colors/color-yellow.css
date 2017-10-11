@@ -98,3 +98,7 @@ blockquote > p > a:hover,
 .scroll-down:hover {
     background-color: #ffb30f;
 }
+
+.header-phone, .header-phone:hover {
+	color: #ffb30f;
+}

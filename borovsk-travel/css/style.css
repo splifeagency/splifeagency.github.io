@@ -5,7 +5,6 @@
 2.Navigation
 3.Content Onepage
 4.Content Multi-Page
-
 -------------------------------------------------*/
 
 /*-------------------------------------------------------*/
@@ -210,10 +209,10 @@ p {
 
 @media (max-width: 991px) {
   .navbar-header {
-    float: none;
+    /*float: none;*/
   }
   .navbar-left, .navbar-nav, .navbar-right {
-    float: none !important;
+    /*float: none !important;*/
   }
   .navbar-toggle {
     display: block;
@@ -305,8 +304,11 @@ p {
 }
 
 .navbar-header {
-  width: 20%;
-  padding-right: 15px;
+  /*width: 20%;*/
+  /*padding-right: 15px;*/
+  position: absolute;
+  left: 0px;
+  top: 20px;
 }
 
 .nav-wrap {
@@ -3875,7 +3877,7 @@ ol.numbers {
     color: white;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -3889,17 +3891,6 @@ ol.numbers {
 .header-title-buttons {
   text-align: center;
   padding-top: 50px;
-}
-
-.header-phone-mobile {
-    /*position: absolute;
-    right: 60px;
-    top: 28px;*/
-    float: right;
-    width: 100%;
-}
-.header-phone-mobile a {
-    font-size: 20px;
 }
 
 .hermes.tparrows {
@@ -4065,18 +4056,15 @@ ol.numbers {
 .color-dark {
   color: #000;
 }
-
 .color-dark:hover {
   color: #000;
 }
-
 .city-item {
   padding-top: 45px;
 }
 .city-item img {
   padding-bottom: 19px;
 }
-
 .intro-title {
     font-size: 20px;
     text-align: center;
@@ -4085,7 +4073,6 @@ ol.numbers {
     padding-top: 70px;
     font-weight: 600;
 }
-
 .order-text  {
   padding-top: 10px;
 }
@@ -4096,7 +4083,23 @@ ol.numbers {
 .order-text span strong {
   font-size: 20px;
 }
-
 .tour-image {
   padding-top: 20px;
+}
+
+
+.header-phone-block {
+  float: right;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 38px 0 38px 0;
+  transition: all 0.3s ease-in-out;
+}
+.sticky .header-phone-block {
+ padding: 18px 0 18px 0; 
+}
+.header-phone {
+  font-size: 20px;
+  padding-right: 40px;
 }

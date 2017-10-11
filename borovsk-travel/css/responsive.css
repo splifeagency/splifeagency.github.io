@@ -23,9 +23,6 @@
   .header-title-small {
     font-size: 20px;
   }
-  .navbar-nav > li.header-phone {
-    display: none;
-  }
   .header-phone-mobile {
     display: block;
   }
