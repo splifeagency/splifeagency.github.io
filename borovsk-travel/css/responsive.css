@@ -1,5 +1,9 @@
 @media (max-width: 1200px) {
 
+  .navbar-toggle {
+    display: block;
+  }
+
   .navbar-nav > li > a {
     padding: 0 15px;
   }
