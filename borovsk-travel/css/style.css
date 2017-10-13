@@ -62,12 +62,13 @@ ul {
   padding: 0;
 }
 
+/* font-family: 'Georgia', sans-serif; */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 17px;
-  line-height: 30px;
+  line-height: 28px;
   background: #fff;
   outline: 0;
   overflow-x: hidden;
@@ -1397,7 +1398,7 @@ p {
   line-height: 34px;
   color: #fff;
   margin: 30px 0 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .testimonial span {
@@ -1610,7 +1611,7 @@ p {
 .services .service-item-box h3 {
   margin-top: 20px;
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .services.style-2 .service-item-box:hover {
@@ -2281,7 +2282,7 @@ textarea:focus {
 }
 
 .hero-subtitle {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: none;
   font-weight: normal;
   color: #fff;
@@ -3877,14 +3878,18 @@ ol.numbers {
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
+    line-height: 80px;
     letter-spacing: 2px;
     text-align: center;
 }
 
 .header-title-small {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
+    line-height: 32px;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .header-title-buttons {
@@ -3896,7 +3901,7 @@ ol.numbers {
   display: none;
 }
 .tp-caption.alt-font-2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Georgia', sans-serif;
 }
 
 
@@ -4068,15 +4073,16 @@ ol.numbers {
     font-size: 20px;
     text-align: center;
     color: black;
+    font-family: "Roboto", serif;
     text-transform: uppercase;
     padding-top: 70px;
     font-weight: 600;
 }
 .order-text  {
-  padding-top: 10px;
+  font-size: 18px;
 }
 .order-text span {
-  padding-left:10px;
+  padding-left:5px;
   
 }
 .order-text span strong {
