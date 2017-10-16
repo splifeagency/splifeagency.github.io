@@ -1611,7 +1611,7 @@ p {
 .services .service-item-box h3 {
   margin-top: 20px;
   margin-bottom: 15px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .services.style-2 .service-item-box:hover {
@@ -3511,6 +3511,7 @@ input.searchbox {
 
 .portfolio-description h4 {
   padding-bottom: 10px;
+  font-size: 22px;
 }
 
 .portfolio-description .socials-share {
@@ -4064,7 +4065,7 @@ ol.numbers {
   color: #000;
 }
 .city-item {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .city-item img {
   padding-bottom: 19px;
@@ -4115,5 +4116,6 @@ ol.numbers {
   font-size: 20px;
   padding-right: 40px;
   position: relative;
+  font-family: "Roboto", serif;
   top: 3px;
 }

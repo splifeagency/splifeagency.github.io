@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
-
-  .navbar-toggle {
-    display: block;
+  
+  .header-title {
+    font-size: 50px;
   }
 
   .navbar-nav > li > a {
@@ -21,11 +21,21 @@
 
 @media (max-width: 991px) {
 
+  .portfolio-single {
+    padding-top: 0;
+  }
+  .portfolio-single .row {
+    display: flex;
+    flex-flow: column-reverse;
+
+  }
   .header-title {
-    font-size: 65px;
+    font-size: 50px;
   }
   .header-title-small {
     font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .header-phone-mobile {
     display: block;
@@ -96,16 +106,27 @@
     margin-top: 40px;
   }
 
+  .navbar-toggle {
+    float: left;
+    margin-left: 10px;
+    margin-top: 17px;
+  }
+
 }
 
 
 @media (max-width: 767px) {
 
   .header-title {
-    font-size: 60px;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
   }
   .header-title-small {
     font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   h2 {
@@ -164,12 +185,12 @@
 @media (max-width: 640px) {
 
   .header-title {
-    font-size: 50px;
-    padding: 20px 0px 0 20px;
+    font-size: 40px;
+    padding: 20px 20px 0 20px;
   }
   .header-title-small {
     font-size: 16px;
-    padding: 20px 0px 0 20px;
+    padding: 20px 20px 0 20px;
   }
 
   h1 { font-size: 24px; }
@@ -199,7 +220,7 @@
 @media (max-width: 480px) {
 
   .header-title {
-    font-size: 42px;
+    font-size: 36px;
     line-height: 50px;
     padding: 0 20px;
   }
@@ -250,5 +271,14 @@
 
 
 @media (max-width: 320px) {
-
+  .header-title {
+    font-size: 28px;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+  .header-title-small {
+    font-size: 14px;
+    padding: 20px 20px 0 20px;
+    line-height: 25px;
+  }
 }
