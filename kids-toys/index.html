@@ -28,6 +28,8 @@
 
 <body>
 
+<div class="preloader"><div class="pulse"></div></div>
+
 <div id="my-page">
     <div id="my-header">
 
@@ -41,14 +43,13 @@
                         <span class="hamburger-box"><span class="hamburger-inner"></span></span>
                     </a>
                     <nav id="my-menu">
-                        <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">Продукция</a></li>
-                            <li><a href="#">Доставка</a></li>
-                            <li><a href="#">Оплата</a></li>
-                            <li><a href="#">Заявка</a></li>
-                            <li><a href="#">Контакты</a></li>
+                        <ul class="local-scroll">
+                            <li><a href="#choose">О нас</a></li>
+                            <li><a href="#products">Продукция</a></li>
+                            <li><a href="#delivery">Доставка</a></li>
+                            <li><a href="#payment">Оплата</a></li>
+                            <li><a href="#form-order">Заявка</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -64,14 +65,13 @@
                     </div>
                     <div class="top-line-2">
                         <nav class="header-menu">
-                            <ul>
-                                <li><a href="#">Главная</a></li>
-                                <li><a href="#">О нас</a></li>
-                                <li><a href="#">Продукция</a></li>
-                                <li><a href="#">Доставка</a></li>
-                                <li><a href="#">Оплата</a></li>
-                                <li><a href="#">Заявка</a></li>
-                                <li><a href="#">Контакты</a></li>
+                            <ul class="local-scroll">
+                                <li><a href="#choose">О нас</a></li>
+                                <li><a href="#products">Продукция</a></li>
+                                <li><a href="#delivery">Доставка</a></li>
+                                <li><a href="#payment">Оплата</a></li>
+                                <li><a href="#form-order">Заявка</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -114,7 +114,7 @@
     </div>
     <div id="my-content">
 
-    <section id="choose">
+    <section id="choose" class="wow fadeIn">
         <div class="container">
 
             <div class="about row">
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <section class="section-gray" id="products">
+    <section class="section-gray wow fadeIn" id="products">
         <div class="container">
             <h2 class="text-center">Популярные игрушки</h2>
             <div class="tovars-filter">
@@ -236,7 +236,7 @@
 
 		<div class="container">
 
-			<div class="info-row">
+			<div class="info-row wow fadeIn" id="delivery">
 				<div class="info-row-image">
 					<img src="img/delivery-bg2.jpg" class="img-responsive" alt="">
 				</div>
@@ -248,7 +248,7 @@
 				</div>
 			</div>
 
-			<div class="info-row">
+			<div class="info-row wow fadeIn" id="payment">
 				<div class="info-row-image">
 					<img src="img/payment-bg.jpg" class="img-responsive" alt="">
 				</div>
@@ -264,7 +264,7 @@
 
 	</section>
 
-	<section class="section-gray" id="brands">
+	<section class="section-gray wow fadeIn" id="brands">
 		<div class="container">
 
 			<h2 class="text-center pb-20">Мы предлагаем самые популярные бренды</h2>
@@ -283,7 +283,7 @@
 		</div>
 	</section>
 
-    <section id="form-order">
+    <section id="form-order" class="wow fadeIn">
         <div class="container">
 
             <div class="order-row">
@@ -332,7 +332,7 @@
         </div>
     </section>
 
-    <section class="section-gray" id="contacts">
+    <section class="section-gray wow fadeIn" id="contacts">
         <div class="container">
             <h2 class="text-center">Контактная информация</h2>
 
