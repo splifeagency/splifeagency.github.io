@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Такси 250250</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#fff">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+
+</head>
+
+<body>
+
+    <div class="wrapper-none"></div>
+
+    <div class="preloader">
+        <div class="blobs">
+            <div class="blob-center"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="blob"></div>
+        </div>
+    </div>
+
+	<div class="sidebar">
+
+		<div class="left-menu">
+			<div class="logo">
+				<img src="img/taxi.svg" alt="">
+				ВОЯЖ
+				<span>служба заказа такси</span>
+			</div>
+			<div class="menu">
+				<ul class="nav local-scroll">
+					<li class="active"><a href="#index">Заказ такси</a></li>
+					<li><a href="#about">О нас</a></li>
+					<li><a href="#advantages">Преимущества</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+					<li><a href="#news">Новости</a></li>
+					<li><a href="#contacts">Контакты</a></li>
+					<li><a href="#feedback">Обратная связь</a></li>
+				</ul>
+				<ul class="cabinet">
+					<li><a href="#">Кабинет клиента</a></li>
+					<li><a href="#">Кабинет водителя</a></li>
+				</ul>
+			</div>
+			<div class="footer-left">
+				<div>© 2017, Служба заказа такси «250250» г. Тула</div>
+				<div class="social">
+					<a href="#"><i class="fa fa-vk"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="main">
+
+		<header id="index">
+            <a href="#" class="toggle-menu"><span></span></a>
+
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-phone">
+                            <div class="h-phone-icon"><span><i class="fa fa-phone"></i></span></div>(4872) 250-250
+                        </div>
+                        <div class="header-title">
+                            <h1>Такси «Вояж»</h1>
+                            <div class="h1-sub">служба заказа такси г. Тула</div>
+                            <div class="h1-info">
+                                <p>Большой набор услуг по перевозке пассажиров и грузов по городу и за городом.<br>У нас всегда вежливые и опытные водители, внимательные диспетчеры.</p>
+                                <p>Стоимость проезда от <strong>80 рублей</strong>.</p>
+                            </div>
+                        </div>
+                        <div class="header-callback">
+							<a href="#callback" class="btn"><span><i class="fa fa-volume-control-phone"></i> Перезвоните мне</span></a>
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<div class="header-form">
+                <div class="container">
+                    <div class="row-header-form">
+                        <div class="col-order-form">
+                            <!--<h2 class="text-center h-mobile">Новый заказ</h2>-->
+                            <form class="order">
+                                <div class="row-order">
+                                    <div class="col-order-left">
+                                        <div class="field-title"><i class="fa fa-map-marker"></i>Откуда</div>
+                                        <div class="row">
+                                            <div class="col-8"><input name="Улица" type="text" placeholder="Улица" required></div>
+                                            <div class="col-4"><input name="Дом" type="text" placeholder="Дом" required></div>
+                                        </div>
+
+                                        <div class="field-title"><i class="fa fa-flag"></i>Куда</div>
+                                        <div class="row">
+                                            <div class="col-8"><input name="Улица" type="text" placeholder="Улица" required></div>
+                                            <div class="col-4"><input name="Дом" type="text" placeholder="Дом" required></div>
+                                        </div>
+
+                                        <div class="field-title"><i class="fa fa-info"></i>Контактные данные</div>
+                                        <div class="row">
+                                            <div class="col-6"><input name="Имя" type="text" placeholder="Имя" required></div>
+                                            <div class="col-6"><input name="Телефон" type="text" placeholder="Телефон" required></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-order-right">
+                                        <div class="row-order-right">
+                                            <div class="col-field-block field-block">
+                                                <div class="field-title"><i class="fa fa-clock-o"></i>Время</div>
+                                                <div class="check-div"><input id="order-time-now" type="radio" name="order-time" value="now" checked><label for="order-time-now">Как можно скорее</label></div>
+                                                <div class="check-div"><input id="order-time-later" type="radio" name="order-time" value="later"><label for="order-time-later">Предварительный заказ</label></div>
+                                            </div>
+
+                                            <div class="col-field-block field-block">
+                                                <div class="field-title"><i class="fa fa-cog"></i>Параметры</div>
+                                                <div class="check-div checkbox"><input type="checkbox" id="sett-child" value="Детское кресло"> <label for="sett-child">Детское кресло</label></div>
+                                                <div class="check-div checkbox"><input type="checkbox" id="sett-bag" value="Большой багаж"> <label for="sett-bag">Большой багаж</label></div>
+                                                <div class="check-div checkbox"><input type="checkbox" id="nosmoke" value="Некурящий салон"> <label for="nosmoke">Некурящий салон</label></div>
+                                                <div class="check-div checkbox"><input type="checkbox" id="condicioner" value="Кондиционер"> <label for="condicioner">Кондиционер</label></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center"><button class="btn active"><span>Заказать такси</span></button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="header-bottom">
+				<div class="container">
+                    <div class="row">
+                        <div class="header-bottom-left local-scroll">
+							<div>Есть вопросы или предложения?</div>
+                            <a href="#feedback">Напишите нам</a>
+                        </div>
+                        <div class="header-apps">
+                            <div>Наше приложение для заказа такси</div>
+                            <a href="#" class="btn"><span><i class="fa fa-google"></i> Google Play</span></a>
+                            <a href="#" class="btn"><span><i class="fa fa-apple"></i> Apple Store</span></a>
+                        </div>
+                        <div class="header-bottom-right">
+                            <a href="#">Публичная аферта</a>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</header> <!-- end Header -->
+
+		<section id="about" class="has-shadow">
+			<div class="dotted">
+				<div class="container bg-white">
+					<div class="row">
+						<div class="about-img">
+							<img src="img/about3.jpg" alt="">
+						</div>
+						<div class="about-text">
+							<div class="top-h">О нас</div>
+							<div class="about-content">
+								<h2 class="pb0">О нашей компании</h2>
+								<div class="h2-sub">Мы работаем с 2000 г.</div>
+
+								<p>Служба заказа такси «250250» является лидером в своем сегменте рынка города Тулы, успешно работая в данной области много лет.</p>
+								<p>С самого начала своей деятельности менеджмент компании был ориентирован на развитие и внедрение современных технологий на уровне мировых стандартов. Результатом стало внедрение таких систем как GPRS-терминалы (смартфоны на базе Android и iPhone) что дало возможность более оперативно распределять заказы и отказаться от использования радиостанций.</p>
+								<p>Служба заказа такси «250250» имеет собственный современный Call-центр, который позволяет быстро и качественно принимать любое количество заявок от клиентов. Работает автоинформирование о статусе заказа.</p>
+								<p>Пользователи интернета получили возможность самостоятельно оформлять заказ в режиме on-line, на сайте они могут самостоятельно выбрать понравившийся автомобиль на интерактивной карте города, видеть и контролировать место и время подъезда автомобиля.</p>
+								<p>Наши водители имеют многолетний опыт вождения, хорошо знают город, всегда вежливы и предупредительны с клиентами. Многие водители обладают хорошим знанием других городов соседних регионов.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!-- end About -->
+
+		<section id="advantages" class="bg-gray pb0">
+			<div class="container">
+				<h2 class="lined pb0">Почему выбирают нас</h2>
+				<div class="h2-sub pb50">Наши преимущества</div>
+
+				<div class="row">
+					<div class="col-adv">
+						<div class="adv-item">
+							<div class="adv-icon"><div><span><img src="img/adv/wallet.svg" alt=""></span></div></div>
+							<div class="adv-text">
+								<h3>Быстрая подача автомобиля</h3>
+								<div>We have more than 100 pro agents will help you anytime, anywhere.</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-adv">
+						<div class="adv-item">
+							<div class="adv-icon"><div><span><img src="img/adv/wallet.svg" alt=""></span></div></div>
+							<div class="adv-text">
+								<h3>Высокий уровень обслуживания</h3>
+								<div>We have more than 100 pro agents will help you anytime, anywhere.</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-adv">
+						<div class="adv-item">
+							<div class="adv-icon"><div><span><img src="img/adv/wallet.svg" alt=""></span></div></div>
+							<div class="adv-text">
+								<h3>Самые низкие цены</h3>
+								<div>We have more than 100 pro agents will help you anytime, anywhere.</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-adv">
+						<div class="adv-item">
+							<div class="adv-icon"><div><span><img src="img/adv/wallet.svg" alt=""></span></div></div>
+							<div class="adv-text">
+								<h3>Вежливые и опытные водители</h3>
+								<div>We have more than 100 pro agents will help you anytime, anywhere.</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-adv">
+						<div class="adv-item">
+							<div class="adv-icon"><div><span><img src="img/adv/wallet.svg" alt=""></span></div></div>
+							<div class="adv-text">
+								<h3>Заказ через сайт и приложение</h3>
+								<div>We have more than 100 pro agents will help you anytime, anywhere.</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-adv">
+						<div class="adv-item">
+							<div class="adv-icon"><div><span><img src="img/adv/wallet.svg" alt=""></span></div></div>
+							<div class="adv-text">
+								<h3>Круглосуточно 24/7</h3>
+								<div>We have more than 100 pro agents will help you anytime, anywhere.</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section> <!-- end Advantages -->
+
+        <section id="services" class="has-shadow">
+            <div class="container">
+                <h2 class="lined pb0">Наши услуги</h2>
+                <div class="h2-sub pb50">Наши дополнительные услуги</div>
+
+                <div class="row">
+                    <div class="col-service">
+                        <div class="service-item">
+							<div class="service-image">
+                                <img src="img/service.jpg" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Корпоративное обслуживание</h3>
+                                <div>
+                                    <p>Использование корпоративного такси весьма удобно для компаний, сотрудники которых в корпоративных интересах вынуждены часто передвигаться по городу.</p>
+                                    <p>Услуги корпоративного такси предлагаются на основании подписанного договора и на протяжении указанного в нем времени. Сотрудники фирмы получают возможность пользоваться нашим автопарком в любое время суток.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-service">
+                        <div class="service-item">
+                            <div class="service-image">
+                                <img src="img/service.jpg" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Трезвый водитель</h3>
+                                <div>
+                                    <p>Услуга «Трезвый водитель» заключается во временном предоставлении нашего профессионального водителя для перегона вашего автомобиля.</p>
+                                    <p>Если вы выпили спиртное, неважно себя чувствуете или устали и не можете вести свой автомобиль — услуга трезвый водитель для вас!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-service">
+                        <div class="service-item">
+                            <div class="service-image">
+                                <img src="img/service.jpg" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Автоняня</h3>
+                                <div>
+                                    <p>Услуга «автоняня» создана для помощи родителям, которые не могут выкроить время для того, чтобы отвезти ребенка в школу, забрать из школы, отвезти на занятия.</p>
+                                    <p>Мы отправим за ребенком профессионального водителя, который доставит его туда, куда вы скажете! Автомобиль будет снабжен детским креслом.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-service">
+                        <div class="service-item">
+                            <div class="service-image">
+                                <img src="img/service.jpg" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Грузоперевозки</h3>
+                                <div>
+                                    <p>Наше такси обеспечит вам быструю подачу автомобиля в режиме грузовое такси в любом районе города, в кратчайшие сроки и по самым доступным ценам.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- end Services -->
+
+        <section id="testimonials" class="bg-light">
+            <div class="container">
+                <ul class="owl-carousel">
+                    <li class="testimonial">
+                        <div>Не имею возможности забирать ребенка из школы (1 класс), поэтому постоянно пользуюсь услугой автоняня,очень довольна работой такси.Спасибо вам за вашу работу.</div>
+                        <div class="testimonial-author">Мария Владимировна, 14.04.2017</div>
+                    </li>
+                    <li class="testimonial">
+                        <div>Спасибо большое за качественное обслуживание) Всегда быстро, удобно и надежно!</div>
+                        <div class="testimonial-author">Александр Сергеевич, 01.02.2017</div>
+                    </li>
+                    <li class="testimonial">
+                        <div>Все хорошо,водитель ехал окуратно.  Вежливый.</div>
+                        <div class="testimonial-author">Светлана , 24.01.2017</div>
+                    </li>
+                    <li class="testimonial">
+                        <div>Такси «Вояж» самое лучшее и дешевое такси в городе с хорошими водителями и автомобилями. Спасибо вам, выручили!</div>
+                        <div class="testimonial-author">Миша, 10.11.2016</div>
+                    </li>
+                </ul>
+                <div class="testimonial-add">
+                    <a href="#">Добавить отзыв</a>
+                </div>
+            </div>
+        </section> <!-- end Testimonials -->
+
+		<section id="news" class="pb0 has-shadow">
+			<div class="container">
+
+				<h2 class="lined pb0">Новости компании</h2>
+				<div class="h2-sub pb50">Последние новости</div>
+
+				<div class="row">
+					<div class="col-news" style="background-image: url('img/header.jpg');">
+						<div class="news-item">
+							<div class="news-title">Приглашаем водителей с личным автомобилем</div>
+							<div class="news-brief">Абсолютно свободный график;<br>Достойный заработок, низкая комиссия;<br>Дарим 100 рублей на баланс в программе при заполнении анкеты на сайте .</div>
+							<div class="news-date">26 октября 2017</div>
+						</div>
+					</div>
+					<div class="col-news" style="background-image: url('img/header.jpg');">
+						<div class="news-item">
+							<div class="news-title">Приглашаем водителей с личным автомобилем</div>
+							<div class="news-brief">Абсолютно свободный график;<br>Достойный заработок, низкая комиссия;<br>Дарим 100 рублей на баланс в программе при заполнении анкеты на сайте .</div>
+							<div class="news-date">26 октября 2017</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!-- end News -->
+
+		<section id="contacts" class="bg-light">
+			<div class="container">
+
+				<h2 class="lined pb0">Контактная информация</h2>
+				<div class="h2-sub pb50">Мы всегда на связи</div>
+
+				<div class="contacts-map">
+					<div class="map-info">
+						<h4>Наши координаты</h4>
+						<div class="address-title">Колл-центр находится:</div>
+						<div class="address">г. Щекино, ул. Свободы</div>
+						<div><span>Городской:</span> +7 (4872) 250250</div>
+						<div><span>Теле2</span> 8 (953) 432-18-18</div>
+						<div><span>Мегафон</span> 8 (920) 765-18-18</div>
+						<div><span>МТС</span> 8 (910) 945-18-18</div>
+						<div><span>Билайн</span> 8 (960) 605-18-18</div>
+						<div><span>E-mail:</span> <a href="#">info@taxi250250.ru</a></div>
+					</div>
+					<div class="map-block">
+						<div class="map" id="map"></div>
+					</div>
+				</div>
+			</div>
+
+		</section> <!-- end Contacts -->
+
+		<section id="feedback" class="bg-color">
+			<div class="container">
+
+				<h2 class="lined pb0">Обратная связь</h2>
+				<div class="h2-sub pb50">Всегда рады ответить на ваши вопросы</div>
+
+				<div class="feedback-content">
+					<div class="feedback-img"></div>
+					<div class="feedback-form">
+
+                        <form class="feedback">
+                            <input type="hidden" name="form_subject" value="Обратная связь">
+                            <div class="success"><span>Спасибо за обратную связь!</span></div>
+                            <div class="form-outer"><div class="form-outer-row">
+                                <div class="form-form">
+                                    <div class="form-col">
+                                        <div class="field-title">Ваше имя</div>
+                                        <input name="Имя" type="text" placeholder="Имя" required>
+                                    </div>
+                                    <div class="form-col">
+                                        <div class="field-title">Ваш телефон</div>
+                                        <input name="Телефон" type="text" placeholder="Телефон" required>
+                                    </div>
+                                    <div class="form-col">
+                                        <div class="field-title">Ваш E-mail</div>
+                                        <input name="E-mail" type="email" placeholder="E-mail" required>
+                                    </div>
+                                    <div class="form-col-textarea">
+                                        <div class="field-title">Комментарий</div>
+                                        <textarea name="Комментарий" placeholder="Текст комментария"></textarea>
+                                        <div class="text-center"><button class="btn"><span>Отправить заявку</span></button></div>
+                                    </div>
+                                </div>
+                            </div></div>
+
+                        </form>
+
+
+					</div>
+				</div>
+
+			</div>
+		</section> <!-- end Feedback -->
+
+        <footer class="has-shadow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-footer-left">
+                        <img src="img/taxi.svg" alt="">
+                        250250
+                        <span>Служба заказа такси</span>
+                    </div>
+                    <div class="col-footer-right">
+                        <div class="copyright">© 2017 Сервис заказа такси «Вояж», г. Тула</div>
+                        <a href="#">Публичная оферта</a>
+                    </div>
+                </div>
+            </div>
+        </footer> <!-- end Footer -->
+
+	</div>
+
+    <div class="hidden">
+        <form class="popup-form zoom-anim-dialog" id="callback">
+            <input type="hidden" name="form_subject" value="Обратный звонок">
+            <div class="success"><span>Спасибо за заявку!</span></div>
+
+            <h3>Заказать звонок</h3>
+            <p>Заполните форму ниже и мы перезвоним Вам в течение 10 минут</p>
+            <input type="text" name="Имя" placeholder="Ваше имя" required>
+            <input type="text" name="Телефон" placeholder="Ваш телефон" required>
+            <div class="text-center pt10">
+                <button class="btn"><span>Перезвоните мне</span></button>
+            </div>
+        </form>
+    </div>
+
+    <div class="back-to-top"><i class="fa fa-angle-up"></i></div>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVAWFtBkcSDpE5D-Jp028cS4bziDrGQCI&callback=initMap"></script>
+
+</body>
+</html>
